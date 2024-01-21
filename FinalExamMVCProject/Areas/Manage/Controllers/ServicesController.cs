@@ -41,7 +41,7 @@ namespace FinalExamMVCProject.Areas.Manage.Controllers
             };
             await _db.Services.AddAsync(service);
             await _db.SaveChangesAsync();
-            return View("Index");
+            return RedirectToAction("Index");
         }
         public async Task<IActionResult> Update(int id)
         {
@@ -88,12 +88,16 @@ namespace FinalExamMVCProject.Areas.Manage.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
-        public async Task<IActionResult> Delete(int id)
+        public  IActionResult Delete(int id)
         {
-            Service service = await _db.Services.FindAsync(id);
+            var service =  _db.Services.FirstOrDefault(x=>x.Id==id);
+            if(service == null)
+            {
+                throw new Exception("service is null.");
+            }
             _db.Services.Remove(service);
-            await _db.SaveChangesAsync();
-            return View("Index");
+             _db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
     }
