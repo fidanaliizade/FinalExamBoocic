@@ -3,6 +3,7 @@
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
+<a  class="btn btn-primary" style="margin-right:90%" asp-area="" asp-controller="Home" asp-action="Index" >Home</a>
 <a  class="btn btn-primary" style="margin-left:90%" asp-controller="Services" asp-action="Create" >Create</a>
 
     <!-- Page Heading -->
@@ -38,8 +39,11 @@
                             <td>@item.Id</td>
                             <td>@item.Title</td>
                             <td >
+                                <div style="width:100px">
+                                        <img src="~/Upload/Service/@item.ImgUrl" width="100%" />
+                                </div>
 
-                                <img src="~/Upload/Service/@item.ImgUrl" />
+                                
                             </td>
                             <td>
                                     <a class="btn btn-secondary" asp-controller="Services" asp-action="Update"asp-route-id="@item.Id">

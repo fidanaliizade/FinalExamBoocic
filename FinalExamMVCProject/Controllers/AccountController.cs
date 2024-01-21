@@ -44,6 +44,7 @@ namespace FinalExamMVCProject.Controllers
                     ModelState.AddModelError("", item.Description);
                 }
             }
+            await userManager.AddToRoleAsync(user, "Admin");
 
             return RedirectToAction("Login");
         }
@@ -86,7 +87,7 @@ namespace FinalExamMVCProject.Controllers
             {
                 if(await roleManager.FindByNameAsync(item.ToString()) == null )
                 {
-                    roleManager.CreateAsync(new IdentityRole()
+                     await roleManager.CreateAsync(new IdentityRole()
                     {
                         Name = item.ToString()
                     });

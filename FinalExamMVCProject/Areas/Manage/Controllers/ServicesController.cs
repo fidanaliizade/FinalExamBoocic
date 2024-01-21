@@ -2,11 +2,13 @@
 using FinalExamMVCProject.DAL;
 using FinalExamMVCProject.Helpers;
 using FinalExamMVCProject.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinalExamMVCProject.Areas.Manage.Controllers
 {
+    [Authorize]
     [Area("Manage")]
     public class ServicesController : Controller
     {
@@ -18,11 +20,13 @@ namespace FinalExamMVCProject.Areas.Manage.Controllers
             _db = db;
             _env = env;
         }
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Index()
         {
             List<Service> services = await _db.Services.ToListAsync();
             return View(services);
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -43,6 +47,7 @@ namespace FinalExamMVCProject.Areas.Manage.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int id)
         {
             Service service = await _db.Services.FindAsync(id);
@@ -88,6 +93,7 @@ namespace FinalExamMVCProject.Areas.Manage.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
+        [Authorize(Roles = "Admin")]
         public  IActionResult Delete(int id)
         {
             var service =  _db.Services.FirstOrDefault(x=>x.Id==id);

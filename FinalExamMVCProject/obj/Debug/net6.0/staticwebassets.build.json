@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VnlbbuUAuHCZpmBTlW3L6nDiB2qiqbqnKrUn3WgjskE=",
+  "Hash": "zwBGYsL95mQyjcG+05vxpfpX7Bo5FP3Aj9KARNKM5LQ=",
   "Source": "FinalExamMVCProject",
   "BasePath": "_content/FinalExamMVCProject",
   "Mode": "Default",
@@ -33728,6 +33728,23 @@
       "OriginalItemSpec": "wwwroot\\manage\\vendor\\jquery-easing\\jquery.easing.min.js"
     },
     {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\Upload\\Service\\18909fdb-2d0a-4efd-8619-887cd013b367images.jfif",
+      "SourceId": "FinalExamMVCProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\",
+      "BasePath": "_content/FinalExamMVCProject",
+      "RelativePath": "Upload/Service/18909fdb-2d0a-4efd-8619-887cd013b367images.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Service\\18909fdb-2d0a-4efd-8619-887cd013b367images.jfif"
+    },
+    {
       "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\Upload\\Service\\271f8e5d-6616-4e7d-baa5-0cc1bb2eb57fimage-asset.jpeg",
       "SourceId": "FinalExamMVCProject",
       "SourceType": "Discovered",
@@ -33813,6 +33830,23 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Service\\4ad92268-83af-4b80-8516-ec7a12f7457aimage-asset.jpeg"
     },
     {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\Upload\\Service\\7a0c8ee6-5c47-4715-aaab-46572b54ff56image-asset.jpeg",
+      "SourceId": "FinalExamMVCProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\",
+      "BasePath": "_content/FinalExamMVCProject",
+      "RelativePath": "Upload/Service/7a0c8ee6-5c47-4715-aaab-46572b54ff56image-asset.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Service\\7a0c8ee6-5c47-4715-aaab-46572b54ff56image-asset.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\Upload\\Service\\7c4f203b-ac83-401a-8a0e-6f1cf88e1d48image-asset.jpeg",
       "SourceId": "FinalExamMVCProject",
       "SourceType": "Discovered",
@@ -33896,6 +33930,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\Service\\bc0350e3-2d4b-40d5-be8b-996b115e80ceimage-asset.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\Upload\\Service\\e56a5c51-0582-43d1-87b3-433595543616image-asset.jpeg",
+      "SourceId": "FinalExamMVCProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamMVCProject\\FinalExamMVCProject\\wwwroot\\",
+      "BasePath": "_content/FinalExamMVCProject",
+      "RelativePath": "Upload/Service/e56a5c51-0582-43d1-87b3-433595543616image-asset.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Service\\e56a5c51-0582-43d1-87b3-433595543616image-asset.jpeg"
     }
   ]
 }

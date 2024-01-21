@@ -68,6 +68,11 @@
                                                 </a>
                                             </li>
                                             <li> <a asp-controller="Account" asp-action="Logout"> Logout</a> </li>
+                                            if(User.IsInRole("Admin"))
+                                            {
+                                                <li> <a asp-area="Manage" asp-controller="Services" asp-action="Index"> Admin Panel</a> </li>
+
+                                            }
                                         }
                                         else
                                         {
