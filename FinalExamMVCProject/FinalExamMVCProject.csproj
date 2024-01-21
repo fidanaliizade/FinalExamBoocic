@@ -18,8 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Manage\ViewModels\" />
-    <Folder Include="Areas\Manage\Views\" />
+    <Folder Include="wwwroot\Upload\Service\" />
   </ItemGroup>
 
 </Project>
