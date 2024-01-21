@@ -20,7 +20,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.Password.RequireLowercase = false;
     opt.Password.RequireNonAlphanumeric = false;
     opt.Password.RequireUppercase = false;
-    opt.Password.RequiredLength = 6;
+    opt.Password.RequiredLength = 1;
     opt.Password.RequiredUniqueChars = 1;
 
     // Lockout settings.
